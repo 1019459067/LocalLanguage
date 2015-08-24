@@ -17,6 +17,7 @@
 		3A19D6321B89ACD8004F6355 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A19D6301B89ACD8004F6355 /* Test1ViewController.m */; };
 		3A19D6451B89B0D0004F6355 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A19D6471B89B0D0004F6355 /* InfoPlist.strings */; };
 		3A19D64B1B89B547004F6355 /* Test1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A19D63C1B89AECB004F6355 /* Test1ViewController.xib */; };
+		3AA5C0051B8AB98800331A9A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AA5C0071B8AB98800331A9A /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,10 @@
 		3A19D6E21B89D71E004F6355 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		3A19D6E31B89D71E004F6355 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		3A19D6E41B89D71E004F6355 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		3AA5C0061B8AB98800331A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3AA5C0081B8AB98A00331A9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3AA5C0091B8AB98C00331A9A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3AA5C00A1B8ABA5100331A9A /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +126,7 @@
 				3A19D6031B89A807004F6355 /* Info.plist */,
 				3A19D6041B89A807004F6355 /* main.m */,
 				3A19D6471B89B0D0004F6355 /* InfoPlist.strings */,
+				3AA5C0071B8AB98800331A9A /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -225,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A19D62C1B89AC2C004F6355 /* Main.storyboard in Resources */,
+				3AA5C0051B8AB98800331A9A /* Localizable.strings in Resources */,
 				3A19D6131B89A807004F6355 /* LaunchScreen.xib in Resources */,
 				3A19D6101B89A807004F6355 /* Images.xcassets in Resources */,
 				3A19D64B1B89B547004F6355 /* Test1ViewController.xib in Resources */,
@@ -314,6 +321,17 @@
 				3A19D6E41B89D71E004F6355 /* zh-Hant */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3AA5C0071B8AB98800331A9A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AA5C0061B8AB98800331A9A /* Base */,
+				3AA5C0081B8AB98A00331A9A /* en */,
+				3AA5C0091B8AB98C00331A9A /* zh-Hans */,
+				3AA5C00A1B8ABA5100331A9A /* zh-Hant */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
